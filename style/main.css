@@ -6,6 +6,10 @@ h1{
     transition: all 0.5s;
     position: relative;
 }
+::selection{
+    background-color: #DC3545;
+    color: aliceblue;
+}
 h1::after{
 position: absolute;
 content: "";
